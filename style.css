@@ -8,6 +8,8 @@ li a{
     text-decoration: none; /*Remove o sublinhado*/
     color: #ffffff; /* Cor do texto branca */
     font-size: 20px; /* Tamanho da fonte */
+    padding: 20px;
+
     
 
 
@@ -17,8 +19,8 @@ li{
     
 }
 #logo{
-    height: 100px;
-    width: 180px;
+    height: 90px; /* Altura da imagem */
+    width: 140px; /* Largura da imagem */
 
 }
 ul{
@@ -27,3 +29,15 @@ ul{
    
 
 }
+.menu { /* Classe para o menu de navegação */
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background-color: aliceblue; /* Cor de fundo clara */
+    }
+
+.caixa-img-logo{ /* Classe para a caixa da imagem do logo */
+        background-color: blue;
+        height: 90px; 
+        width: 90px;
+    }
