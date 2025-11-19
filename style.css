@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -119,7 +120,7 @@ ul {
 }
 
 .produtos {
-    height: 350px;
+    height: 330px;
     width: 190px;
 }
 
@@ -128,7 +129,8 @@ ul {
     font-size: 20px;
     color: #ffffff;
     display: flex;
-    margin: 15px;
+    justify-content: center;
+
 
 }
 
@@ -155,8 +157,45 @@ ul {
 }
 
 .caixa-cores {
-    display: flex;
+    display: flex; /*FLEXIONA OS ITENS*/
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 100px
+    justify-content:center;
+    gap: 10px;
+}
+ .carrosel{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+ }
+ 
+.banner-xbox{
+    background-image: url("./assets/x-box.png");
+    width: 810px;
+    height: 390px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.caixa-banner-xbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    padding: 20px 80px;
+}
+.texto-banner-xbox {
+    font-size: 25px;
+    color: #ffffff;
+  
+}
+.texto-btn-xbox {
+    width: 105px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    margin-top: 5px;
+    margin-right: 100px;
 }
