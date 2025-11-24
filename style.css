@@ -105,6 +105,7 @@ ul {
     display: flex;
     justify-content: center;
     /*muda posiçao da caixa*/
+    padding: 15px;
 }
 
 .titulo-primario {
@@ -174,13 +175,16 @@ ul {
     height: 390px; 
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .caixa-banner-xbox{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items:center;
     height: 100%;
     padding: 20px 80px;
 }
@@ -189,13 +193,29 @@ ul {
     color: #ffffff;
   
 }
-.texto-btn-xbox {
+.btn-xbox {
     width: 105px;
     height: 30px;
     border-radius: 50px;
-    background-color: #333333;
+    background-color: #341a10;
     color: #ffffff;
     border: none;
-    margin-top: 5px;
-    margin-right: 100px;
+    margin:25px;
 }
+ .caixa-footer{
+    background-color: cadetblue;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+ }
+ .Rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+     ;
+
+ }
+ 
